@@ -1,0 +1,23 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.2</jsp-version>
+    <short-name>JSPTag</short-name>
+    <tag>
+    	<name>db</name>
+    	<tag-class>ctag.ConnectionTag</tag-class>
+    	<body-content>empty</body-content>
+    	
+    	<!-- 변수의 유효성을 검사하는 클래스 -->
+    	<tei-class>ctag.ConnectionTagTEI</tei-class>
+    	
+    	<attribute>
+    		<name>id</name>
+    		<required>true</required>
+    	</attribute>    	
+    </tag>
+</taglib>
+
+
+
+
+

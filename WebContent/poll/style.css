@@ -1,0 +1,44 @@
+BODY {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 160%; FONT-FAMILY: d2coding,verdana,tahoma;
+}
+h2{
+	Font-Size: 50pt; font-Family: SYSTEM,d2coding; font-color: red;
+}
+h3{
+	Font-Size: 15pt; text-align: center; Font-Family: d2coding; LINE-HEIGHT: 100%;
+}
+TD {
+	FONT-SIZE: 11pt; COLOR: black; LINE-HEIGHT: 160%; FONT-FAMILY: d2coding,verdana,tahoma;
+	background-color: white; text-align: center;	
+}
+tr{
+	Font-Size: 15pt; text-align: center; Font-Family: d2coding;
+}
+
+table { border-collapse : collapse;	
+}
+TH {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 160%; FONT-FAMILY: d2coding,verdana,tahoma;
+	text-align: center;
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 160%; FONT-FAMILY: d2coding,verdana,tahoma
+}
+DIV {
+	FONT-SIZE: 10pt; COLOR: black; LINE-HEIGHT: 160%; FONT-FAMILY: d2coding,verdana,tahoma
+}
+FORM {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 160%; FONT-FAMILY: d2coding,verdana,tahoma
+}
+TEXTAREA {
+	BORDER-RIGHT: 1px solid #999999; BORDER-TOP: 1px solid #999999; FONT-SIZE: 9pt; 
+	BORDER-LEFT: 1px solid #999999 ; COLOR: BLACK; BORDER-BOTTOM: 1px solid #999999; FONT-FAMILY: ±¼¸²,verdana; BACKGROUND-COLOR: white
+}
+INPUT {
+	BORDER-RIGHT: 1px solid #999999; BORDER-TOP: 1px solid #999999; FONT-SIZE: 9pt; 
+	BORDER-LEFT: 1px solid #999999; COLOR: BLACK; BORDER-BOTTOM: 1px solid #999999; FONT-FAMILY: ±¼¸²,verdana; HEIGHT: 19px; BACKGROUND-COLOR: white;
+}
+
+A:link {text-decoration:none;color:#696969}
+A:hover{text-decoration:yes;color:#66CCFF}
+A:visited {text-decoration:none;color:#330066}
