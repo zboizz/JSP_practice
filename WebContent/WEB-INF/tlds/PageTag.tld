@@ -1,0 +1,28 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1">
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.2</jsp-version>
+    <short-name>JSPTag</short-name>
+    <tag>
+    	<name>page</name>
+    	<tag-class>ctag.PageTag</tag-class>
+    	<body-content>empty</body-content>
+    	
+    	<attribute>
+    		<name>from</name>
+    		<type>java.lang.Integer</type>
+    		<!-- 속성 값으로 표현식을 사용할 수 있는지의 여부를 지정, 기본값은 true -->
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    	
+    	<attribute>
+    		<name>to</name>
+    		<type>java.lang.Integer</type>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    </tag>
+</taglib>
+
+
+
+
+
